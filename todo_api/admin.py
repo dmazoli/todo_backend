@@ -1,6 +1,7 @@
 from django.contrib import admin
 
-from todo_api.models import TodoListModel, CategoryModel
+from todo_api.models.TodoListModel import TodoList
+from todo_api.models.CategoryModel import Category
 
-admin.site.register(TodoListModel)
-admin.site.register(CategoryModel)
+admin.site.register(TodoList)
+admin.site.register(Category)
